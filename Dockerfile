@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-runner:ubuntu-v11.2.0
+FROM gitlab/gitlab-runner:ubuntu-v11.3.0
 
 ADD https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/1.2.0/docker-machine-driver-hetzner_1.2.0_linux_amd64.tar.gz /tmp/docker-machine-driver-hetzner.tar.gz
 RUN cd /tmp && \
